@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: blueviolet;
+  border: none;
+}
+
+body {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-color: gainsboro;
+}
+
+.heading-and-refresh-button {
+  display: flex;
+  background-color: chartreuse;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 40px;
+}
+
+.heading {
+  font-size: 16px;
+}
+
+.type-and-enter-btn {
+  background-color: #fff;
+  padding: 5px;
+  height: 40px;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#refresh {
+  background-color: chartreuse;
+}
+
+.type {
+  height: 90%;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid blueviolet;
+}
+
+.clear-all {
+  height: 40px;
+  background-color: chartreuse;
+  border: none;
+  font-weight: 700;
+}
+
+.list {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: #fff;
+  height: 40px;
+  align-items: center;
+  gap: 5px;
+  width: 50vw;
+}
+
+.text {
+  text-align: left;
+  width: 70%;
+}
+
+.refresh {
+  border: none;
+  background-color: #fff;
+}
+
+.enter {
+  border: none;
+  background-color: #fff;
+  display: flex;
+}
