@@ -1,1 +1,40 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>To Do List App</title><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/><script defer="defer" src="/runtime.js"></script><script defer="defer" src="/main.js"></script></head><body><div class="to-do-list" id="maincontainer"><div class="heading-and-refresh-button"><h1 class="heading">To Do List</h1><button class="refresh"><i id="refresh" class="fa-solid fa-arrows-rotate"></i></button></div><div class="type-and-enter-btn"><input class="type" id="entry" placeholder="Add to your list..."/><button class="enter"><i class="material-icons">&#xe31b</i></button></div><div class="list" id="sub-container"></div><button class="clear-all">Clear Completed Task</button></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List App</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
+  <body>
+    <div class="to-do-list" id="maincontainer">
+      <div class="heading-and-refresh-button">
+        <h1 class="heading">To Do List</h1>
+        <button class="refresh" type="button">
+          <i id="refresh" class="fa-solid fa-arrows-rotate"></i>
+        </button>
+      </div>
+      <div class="type-and-enter-btn">
+        <input
+          type="text"
+          class="type"
+          id="entry"
+          placeholder="Add to your list..."
+        /><button class="enter" type="submit"><i class="material-icons">&#xe31b</i>
+</button>
+      </div>
+      <div class="list" id="sub-container"></div>
+      <button class="clear-all" type="button">Clear Completed Task</button>
+    </div>
+  </body>
+</html>
