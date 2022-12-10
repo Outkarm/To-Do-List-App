@@ -2,7 +2,7 @@
   "name": "to-do-list-app",
   "version": "1.0.0",
   "description": "If you are not familiar with linters, read [root level README](../README.md).",
-  "main": "webpack.config.js",
+  "private": true,
   "dependencies": {
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
@@ -719,7 +719,10 @@
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
