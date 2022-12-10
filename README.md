@@ -93,7 +93,7 @@ Clone this repository to your desired folder:
 <!-- Author -->
 
 👤 **Authors**
-Saba Ahmad
+Outkarm Johnson
 
 - GitHub: [Outkarm](https://github.com/Outkarm)
 - LinkedIn: [John Kpordje](https://www.linkedin.com/in/john-kpordje-866749241/)
