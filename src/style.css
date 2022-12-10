@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: blueviolet;
   border: none;
 }
 
@@ -26,6 +25,7 @@ body {
   display: flex;
   background-color: chartreuse;
   width: 50vw;
+  color: blueviolet;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
@@ -38,6 +38,7 @@ body {
 
 .type-and-enter-btn {
   background-color: #fff;
+  color: blueviolet;
   padding: 5px;
   height: 40px;
   width: 50vw;
@@ -52,6 +53,7 @@ body {
 .type {
   height: 90%;
   width: 90%;
+  color: rgb(115, 2, 2);
   border: none;
   border-bottom: 1px solid blueviolet;
 }
@@ -59,12 +61,13 @@ body {
 .clear-all {
   height: 40px;
   background-color: chartreuse;
+  color: blueviolet;
   border: none;
   font-weight: 700;
 }
 
 .list {
-  background-color: gainsboro;
+  background-color: #dcdcdc;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -75,10 +78,15 @@ body {
   justify-content: space-around;
   padding: 5px;
   background-color: #fff;
+  color: blueviolet;
   height: 40px;
   align-items: center;
   gap: 5px;
   width: 50vw;
+}
+
+.task-opt-btn {
+  color: blueviolet;
 }
 
 .text {
@@ -89,10 +97,42 @@ body {
 .refresh {
   border: none;
   background-color: #fff;
+  color: blueviolet;
 }
 
 .enter {
   border: none;
   background-color: #fff;
+  color: blueviolet;
   display: flex;
+}
+
+.type-sec {
+  padding: 5px;
+  height: 90%;
+  width: 88%;
+  border: none;
+  border-bottom: 1px solid chartreuse;
+  color: rgb(115, 2, 2);
+}
+
+.checkbtn {
+  color: chartreuse;
+  background-color: blueviolet;
+  border: none;
+}
+
+.edit-sec {
+  background-color: blueviolet;
+  color: chartreuse;
+  padding: 5px;
+  height: 40px;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vanish {
+  display: none;
 }
