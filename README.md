@@ -1,62 +1,123 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<div align="center">
 
-hello microverse project
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Built With
+</div>
 
-- Major languages
-- Frameworks
-- Technologies used
+<!-- TABLE OF CONTENTS -->
 
-## Live Demo (if available)
+# 📗 Table of Contents
 
-[Live Demo Link](https://livedemo.com)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Todo List Project](#-todo-list-project)
+  - [🛠️ Built With ](#-built-with-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
 
-## Getting Started
+<!-- PROJECT DESCRIPTION -->
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+# 📖 Todo List Project<a name="about-project"></a>
 
-To get a local copy up and running follow these simple example steps.
+**Minimalist To Do List Project**
+is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website. That website is already offline but you can still play with thanks to web.archive.org.
+
+## 🛠️ Built With <a name="built-with"></a>
+
+    HTML
+    CSS
+    Javascript(ES6)
+    Webpack
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Coming Soon....
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+- Create a local directory that you want to clone the repository.
+
+- Open the command prompt in the created directory.
+
+- On the terminal run this command git clone ``
+
+- Go to the repository folder using command prompt cd `/To-Do-List-App`
+
+- Install the dev dependencies for linters run npm install.
+- setup Webpack
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
 
+In order to run this project you need:
+
+-Any broswer
+
+- knowledge of ES6 modules
+- familiarity with basic git commands
+- working knowledge of webpack
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Setup
 
-### Install
+Clone this repository to your desired folder:
 
-### Usage
+- Open the command prompt in the created directory.
 
-### Run tests
+- On the terminal run this command git clone https://github.com/Outkarm/To-Do-List-App
 
-### Deployment
+- Go to the repository folder using command prompt cd awesome-books-project
 
-## Author
+- Install the dev dependencies for linters run npm install.
 
-👤 **John Kpordje**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@Outkarm](https://github.com/Outkarm)
-- Twitter: [@outkarm](https://twitter.com/outkarm)
+<!-- Author -->
+
+👤 **Authors**
+Outkarm Johnson
+
+- GitHub: [Outkarm](https://github.com/Outkarm)
 - LinkedIn: [John Kpordje](https://www.linkedin.com/in/john-kpordje-866749241/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Implement some UX improvements: added transitions and/or animation.
+
+- Implement additional pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Outkarm/To-Do-List-App/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐ Show your support <a name="support"></a>
 
-## Acknowledgments
+Give a ⭐ if you like this project!
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./LICENSE) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
