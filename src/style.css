@@ -133,6 +133,11 @@ body {
   align-items: center;
 }
 
+.cancel {
+  text-decoration: line-through;
+  color: rgb(115, 2, 2);
+}
+
 .vanish {
   display: none;
 }

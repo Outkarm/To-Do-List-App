@@ -1,5 +1,6 @@
 /* eslint-disable no-loop-func */
 import './style.css';
+import theCheck from './modules/checkbox.js';
 
 let toDoList = [];
 
@@ -9,6 +10,7 @@ function CreateTask(description, completed, id) {
   this.id = id;
 }
 const pushTask = () => {
+  toDoList = JSON.parse(localStorage.getItem('toDoList')) || [];
   const taskValue = document.querySelector('#entry').value;
   const id = toDoList.length;
   const completed = false;
@@ -33,10 +35,22 @@ const createTask = () => {
     container.append(taskC);
     const check = document.createElement('input');
     check.type = 'checkbox';
+    check.classList.add('check-box');
+    check.id = toDoList[x].id;
+    check.addEventListener('click', () => {
+      theCheck(check);
+    });
     task.append(check);
     const theTask = document.createElement('p');
     theTask.innerText = toDoList[x].description;
     theTask.classList.add('text');
+    if (toDoList[x].completed === true) {
+      theTask.classList.add('cancel');
+      check.checked = true;
+    } else if (theTask.classList.contains('cancel')) {
+      theTask.classList.remove('cancel');
+      check.checked = false;
+    }
     task.append(theTask);
     const taskOptBtn = document.createElement('button');
     taskOptBtn.classList.add('task-opt-btn');
@@ -140,6 +154,22 @@ const createTask = () => {
 const enterTask = document.querySelector('.enter');
 enterTask.addEventListener('click', () => {
   pushTask();
+  store();
+  toDoList = JSON.parse(localStorage.getItem('toDoList')) || [];
+  window.location.reload();
+});
+
+const clearAll = document.querySelector('.clear-all');
+clearAll.addEventListener('click', () => {
+  toDoList = JSON.parse(localStorage.getItem('toDoList')) || [];
+  toDoList = toDoList.filter((e) => e.completed === false);
+  let newId = 0;
+  if (toDoList.length > 0) {
+    toDoList.forEach((m) => {
+      m.id = newId;
+      newId += 1;
+    });
+  }
   store();
   toDoList = JSON.parse(localStorage.getItem('toDoList')) || [];
   window.location.reload();
