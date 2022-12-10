@@ -47,17 +47,26 @@ Coming Soon....
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+- Create a local directory that you want to clone the repository.
 - Create a local directory that you want to clone the repository.
 
 - Open the command prompt in the created directory.
+- Open the command prompt in the created directory.
 
 - On the terminal run this command git clone ``
+- On the terminal run this command git clone ``
 
+- Go to the repository folder using command prompt cd `/To-Do-List-App`
 - Go to the repository folder using command prompt cd `/To-Do-List-App`
 
 - Install the dev dependencies for linters run npm install.
 - setup Webpack
+- Install the dev dependencies for linters run npm install.
+- setup Webpack
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
@@ -85,12 +94,17 @@ Clone this repository to your desired folder:
 - Install the dev dependencies for linters run npm install.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Author -->
 <!-- Author -->
 
 👤 **Authors**
 Outkarm Johnson
+👤 **Authors**
+Outkarm Johnson
 
+- GitHub: [Outkarm](https://github.com/Outkarm)
 - GitHub: [Outkarm](https://github.com/Outkarm)
 - LinkedIn: [John Kpordje](https://www.linkedin.com/in/john-kpordje-866749241/)
 
@@ -120,4 +134,5 @@ Give a ⭐ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
