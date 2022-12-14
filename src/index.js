@@ -4,10 +4,12 @@ import theCheck from './modules/checkbox.js';
 
 let toDoList = [];
 
-function CreateTask(description, completed, id) {
-  this.description = description;
-  this.completed = completed;
-  this.id = id;
+class CreateTask {
+  constructor(description, completed, id) {
+    this.description = description;
+    this.completed = completed;
+    this.id = id;
+  }
 }
 const pushTask = () => {
   toDoList = JSON.parse(localStorage.getItem('toDoList')) || [];
