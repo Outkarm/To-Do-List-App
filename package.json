@@ -715,6 +715,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
     "jest": "^29.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
@@ -723,7 +724,8 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
