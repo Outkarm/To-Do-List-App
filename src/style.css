@@ -6,7 +6,14 @@
 }
 
 body {
-  background-color: gainsboro;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(211, 211, 211, 0.2),
+      rgba(211, 211, 211, 0.9),
+      rgba(211, 211, 211, 0.2)
+    ),
+    url(../images/todo2.webp);
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -17,13 +24,32 @@ body {
 .to-do-list {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  background-color: gainsboro;
+  gap: 10px;
 }
 
 .heading-and-refresh-button {
   display: flex;
-  background-color: chartreuse;
+  background-color: rgb(128, 254, 2, 0.4);
+  background-image: linear-gradient(
+      45deg,
+      chartreuse 25%,
+      transparent 25%,
+      transparent 75%,
+      chartreuse 75%,
+      chartreuse
+    ),
+    linear-gradient(
+      -45deg,
+      chartreuse 25%,
+      transparent 25%,
+      transparent 75%,
+      chartreuse 75%,
+      chartreuse
+    );
+  background-size: 20px 20px;
+  border-radius: 2px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   width: 50vw;
   color: blueviolet;
   justify-content: space-between;
@@ -33,7 +59,8 @@ body {
 }
 
 .heading {
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .type-and-enter-btn {
@@ -47,7 +74,7 @@ body {
 }
 
 #refresh {
-  background-color: chartreuse;
+  background-color: rgb(127, 253, 1);
 }
 
 .type {
@@ -64,10 +91,12 @@ body {
   color: blueviolet;
   border: none;
   font-weight: 700;
+  border-radius: 2px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .list {
-  background-color: #dcdcdc;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -83,6 +112,7 @@ body {
   align-items: center;
   gap: 5px;
   width: 50vw;
+  border-radius: 2px;
 }
 
 .task-opt-btn {
@@ -114,6 +144,9 @@ body {
   border: none;
   border-bottom: 1px solid chartreuse;
   color: rgb(115, 2, 2);
+  border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .checkbtn {
@@ -131,6 +164,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 20px;
 }
 
 .cancel {
@@ -141,3 +175,12 @@ body {
 .vanish {
   display: none;
 }
+
+@media only screen and (max-width: 500px) {
+  .edit-sec,
+  .task,
+  .type-and-enter-btn,
+  .heading-and-refresh-button {
+    width: 80vw;
+  }
+} ;

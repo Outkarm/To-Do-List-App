@@ -177,4 +177,9 @@ clearAll.addEventListener('click', () => {
   window.location.reload();
 });
 
+const refresh = document.querySelector('.refresh');
+refresh.addEventListener('click', () => {
+  window.location.reload();
+});
+
 createTask();
