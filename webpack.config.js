@@ -8,16 +8,17 @@ module.exports = {
   devServer: {
     static: "./dist",
   },
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
   ],
   output: {
-    filename: "[name].js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    publicPath: "/To-Do-List-App/",
+    publicPath: "/",
   },
   optimization: {
     runtimeChunk: "single",
