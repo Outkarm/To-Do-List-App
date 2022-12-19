@@ -723,7 +723,6 @@
   "scripts": {
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "server": "node server.js",
     "test": "jest",
     "build": "webpack",
     "deploy": "gh-pages -d dist"
