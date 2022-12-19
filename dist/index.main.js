@@ -7,7 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkto_do_list_app"] = self["webpackChunkto_do_list_app"] || []).push([["main"],{
+(self["webpackChunkto_do_list_app"] = self["webpackChunkto_do_list_app"] || []).push([["index"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\

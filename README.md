@@ -39,9 +39,7 @@ is a website that helps to organize your day. It simply lists the things that yo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Coming Soon....
+## 🚀 Live Demo <a name="live-demo" href='https://outkarm.github.io/To-Do-List-App/dist/'>Click Here to view</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
